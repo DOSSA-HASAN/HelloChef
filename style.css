@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px
+}
+
+nav img{
+    width: 170px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #484848;
+    padding: 0 20px;
+    /* border: 1px solid red; */
+}
+
+#signInButton{
+    color: #fff;
+    background: #e42a12;
+    padding: 10px 15px;
+    border-radius: 9999px
+}
+
+#section01{
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;    
+}
+
+#section01 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section01 h1{
+    font-size: 30px;
+    max-width: 300px;
+    text-align: center;
+    color: #383636;
+    font-weight: bold;
+    line-height: 1;
+
+    margin: 150px 0 0 0;
+}
+
+.hero-text{
+    color: #484848;
+    max-width: 300px;
+    text-align: center;
+    color: #484848;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.getStartButton{
+    color: #fff;
+    background: #e42a12;
+    padding: 10px 15px;
+    border-radius: 9999px;
+    display: inline-block;
+    padding: 15px 50px;
+    margin-bottom: 100px
+
+}
+
+
+/*SECTION 2*/
+
+#section02 h2{
+    max-width: 350px;
+    text-align: center;
+    color: #383636;
+    font-weight: bold;
+
+    margin-top: 40px;
+}
+
+.hero-text02{
+    color: #484848;
+    text-align: center;
+    color: #484848;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyUs{
+   width: 250px;
+   /* border: 1px solid red;  */
+   padding: 0 40px
+
+}
+
+.whyUs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.whyUs h3{
+    color: #484848;
+}
+
+ul{
+    margin-left: 20px
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.reason{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /* font-size: .9375em; */
+}
+
+.whyUs main img{
+    width: 20px;
+}
+
+
+/*SECTION 3*/
+
+#section03{
+    margin-top: 40px;
+    display: flex; 
+}
+
+#section03 main{
+    width: 50%;
+}
+#section03 main img{
+    width: 100%;
+    height: 100%;
+}
+
+#section03 aside{
+    width: 50%;
+    background-color: #ff946e33;
+    display: inline-block;
+    padding: 50px
+}
+
+#section03 aside h2{
+    color: #e42a12;
+    font-size: 30px
+}
+
+#section03 aside p{
+    color: #1a1a1a;
+    margin-top: 10px
+}
+
+#section03 aside ol{
+    counter-reset: list-counter;
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+#section03 aside ol li{
+    counter-increment: list-counter;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+#section03 aside ol li::before{
+    content: counter(list-counter) ".";
+    color: #ff946e;
+    font-size: 25px;
+
+}
+
+#section03 .learnMoreButton{
+    margin-top: 20px;
+    color: #fff;    
+    background-color: #e42a12;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 9999px;
+}
+
+/*SECTION 4*/
+
+#section04{
+    padding: 40px 0;
+}
+
+#section04 h2{
+    color: #1a1a1a;
+}
+
+#section04 p{
+    color: #484848;
+}
+
+#section04 main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#section04 main p{
+    padding-top: 10px;
+    width: 490px;
+    text-align: center;
+    font-size: small
+}
+
+.menu-options{
+    width: 230px;
+    position: relative;
+}
+
+.menu-options img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-options p{
+    background-color: rgb(216, 244, 164);
+    width: min-content;
+    padding: 5px;
+    border-radius: 999px;
+    position: absolute;
+    top: 115px;
+    right: 10px;
+}
+
+#section04 aside{
+    margin-top: 20px;
+}
+
+#section04 .learnMoreButton{
+    margin-top: 20px;
+    color: #fff;    
+    background-color: #e42a12;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 9999px;
+}
+
+.learn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-container img{
+    width: 40px;
+}
+
+.instagram-container h2{
+    text-decoration: underline;
+    text-decoration-color: #383636;
+    color: #383636;
+    margin-left: 10px;
+}
+
+#section05 main img{
+    width: 170px;
+    padding: 30px 0 10px 13px;
+}
+
+#section05 main{
+    display: flex;
+    justify-content: center;
+}
+
+#section05 article{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#section05 article p{
+    font-size: 1.45em;
+}
+
+#section05 .reviews-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section05 .reviews-container p{
+    font-size: 15px
+}
+
+.star-rating{
+    width: 120px;
+    margin: 0 -5px;
+}
+
+.google-logo{
+    width: 70px;
+    margin-left: 10px;
+}
+
+/*SECTION 6*/
+
+#section06 main{
+    background-color: #fff;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#section06 main h2{
+    color: #1a1a1a;
+    margin-top: 15px;
+
+}
+
+#section06 main p{
+    color: #383636;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+#section06 .form-container{
+    margin-top: 20px;
+
+}
+
+#section06 .form-container label{
+    font-size: 13px;
+    color: #aeabab;
+}
+
+#email{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #aeabab;
+    outline: none;
+    border-radius: 10px;
+}
+
+#section06 form span{
+    position: absolute;
+    color: #fff;
+    background-color: #e42a12;
+    padding: 7px 9px;
+    margin-left: -40px;
+    margin-top: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 13px;
+}
+
+#section06 article p{
+    font-size: 10px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 40px;
+    color: #a7a4a4
+}
+
+#section06{
+    background-image: url('images/section06-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+/*FOOTER*/
+
+footer{
+    max-width: 700px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+.logo img{
+    width: 100px
+}
+
+footer main{
+    display: flex;
+    justify-content: center;    
+}
+
+footer main div{
+    padding: 10px;
+}
+
+
+
+footer main div p{
+    font-size: 12px;
+    color: #484848;
+    margin-top: 5px;
+    /* padding-right: 20px; */
+}
+
+footer main div img{
+    width: 20%;
+    padding-top: 10px;
+    
+}
+
+.right-side{
+    display: flex;
+    /* margin-left: -100px; */
+    margin-top: -10px
+}
+
+.align-r{
+    text-align: right;
+    padding-right: 0;
+    margin: 0
+}
+
+.align-r p{
+    padding-top: 5px;
+}
+
+.m-r-50{
+    margin-right: 50px;
+}
+
+
+
+footer .form-container{
+    margin-top: 20px;
+
+}
+
+footer .form-container p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer .form-container label{
+    font-size: 10px;
+    color: #aeabab;
+}
+
+#email{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 6px;
+    width: 180px;
+    border: 1px solid #aeabab;
+    outline: none;
+    border-radius: 10px;
+}
+
+footer form span{
+    position: absolute;
+    color: #fff;
+    background-color: #e42a12;
+    padding: 9px 6px;
+    margin-left: -40px;
+    margin-top: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10px;
+}
+
+.letter-g{
+    height: 20px;
+}
+
+.google-reviews{
+    display: flex; 
+    align-items: center;
+    margin-top: 10px;
+    height: 20px;
+}
+
+
+.social-media h6{
+    text-align: right;
+    margin-right: 10px;
+    
+}
+
+.social-media div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-media div img{
+    padding-right: 5px;
+}
+
+footer{
+    padding-bottom: 50px
+}
+
+footer aside{
+    display: flex;
+    align-items: center;
+}
