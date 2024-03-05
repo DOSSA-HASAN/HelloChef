@@ -1,4 +1,8 @@
 # HelloChef
+
+![HelloChef-mockup](https://github.com/DOSSA-HASAN/HelloChef/assets/161303408/2fc23a0d-1e33-4196-bc0a-8c183bd3fee0)
+
+
 # HelloChef Recipes Website Design
 
 Welcome to the HelloChef Recipes Website Design project! This repository showcases a visually appealing design concept for a Recipes website, meticulously crafted using HTML and CSS.
